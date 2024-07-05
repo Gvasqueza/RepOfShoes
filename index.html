@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republic of Shoes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="galeria/logorosnewpng.png">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="container__header">
+            <div class="logo">
+                <img src="media/logorosnewpng.png" alt="Logo de Republic of Shoes">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#entradas">Nuestros Servicios</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                        <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+            <div class="header__inicio">
+                <a href="inisesion.html"><input type="button" class="btn__header-inicio" value="Iniciar Sesión"></a>
+            </div>
+            <div class="header_inicio_responsive">
+                <button>
+                    <a href="inisesion.html"><img src="media/OIP.png"></a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cover">
+            <div class="text__information-cover">
+                <h1>No le quites importancia a tus sneakers.</h1>
+                <p>El cuidado de nuestras zapatillas es tan importante como el nuestro, y no hay
+                    mejor manera de cuidarlos que dejandolo en manos de los profesionales...
+                    ¡¿Que esperas?! Republic of Shoes está esperando.</p>
+                <div class="buttons__cover">
+                    <a href="registro.html"><input type="button" class="btn__register-cover" value="Registrarse"></a>
+                    <a href="#modal"><input type="button" id="openModal" class="btn__readMore-cover"
+                            value="Leer más"></a>
+                </div>
+                <div id="modal" class="modal-container">
+                    <div class="modal-content">
+                        <h2>Republic of Shoes</h2>
+                        <img src="media/promo.png">
+                        <p>Bienvenidos a Republic of Shoes, su empresa líder en limpieza y restauración de sneakers.
+                            Somos un equipo apasionado por la moda y el calzado, y nos esforzamos por brindar un
+                            servicio de alta calidad a nuestros clientes.<br>
+                            <br>
+                            Nuestro objetivo es ayudar a preservar la apariencia original de sus sneakers favoritos,
+                            ofreciendo una amplia gama de servicios que incluyen limpieza profunda, reparación de
+                            grietas y desgaste, y aplicación de protección contra la intemperie.<br>
+                            <br>
+                            Nos especializamos en una amplia variedad de marcas y estilos, y utilizamos técnicas y
+                            productos de alta calidad para asegurar un resultado excepcional. Además, nos tomamos el
+                            tiempo necesario para comprender las necesidades individuales de cada cliente, para
+                            garantizar que su experiencia con nosotros sea positiva y satisfactoria.<br>
+                            <br>
+                            Si está buscando una empresa confiable y profesional para cuidar sus sneakers, ¡no busque
+                            más! Contáctenos hoy mismo para programar una cita y descubrir por qué somos la elección
+                            número uno en limpieza y restauración de sneakers. ¡Estamos emocionados de trabajar con
+                            usted!
+                        </p>
+                        <div id="close" class="close">
+                            <p>Regresar a la página principal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="media__cover">
+                <video src="media/large.mp4" autoplay playinline loop muted preload="auto"></video>
+            </div>
+        </div>
+        <div class="container__banner">
+            <div class="banner">
+                <div class="banner__icon-heart">
+                    <img src="media/heart_notify.png" id="icon_heart" alt="">
+                </div>
+                <div class="banner__text">
+                    <h2>Nos respaldan todos nuestros clientes satisfechos, trabajamos con los mejores productos para el
+                        cuidado de tus sneakers.</h2>
+                </div>
+            </div>
+        </div>
+        <h2 id="entradas">Nuestros Servicios</h2>
+        <div class="container__cards">
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c1.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Premium</h2>
+                    <p>Lavado completo para tus Sneakers con los mejores productos, incluye desinfección y
+                        deodorización.</p>
+                    <a href="paginasproducto/paginaproducto.html"><input type="button" value="Solicitar"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c2.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Kids</h2>
+                    <p>Para las minis Sneakers.Limpieza total, incluye desinfección y deodorización.</p>
+                    <a href="paginasproducto/paginaproducto2.html"><input type="button" value="Solicitar"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c3.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Recolor</h2>
+                    <p>En este servicio le regresamos el color original a tus semisuelas amarillas o manchadas.</p>
+                    <a href="paginasproducto/paginaproducto3.html"><input type="button" value="Solicitar"></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c4.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Repaint</h2>
+                    <p>Con este tratamiento tus sneakers quedarán como nuevas con la pintura ideal para cada tipo de
+                        zapatillas.</p>
+                    <a href="paginasproducto/paginaproducto4.html"><input type="button" value="Solicitar"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container__cards">
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c5.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Combo 1</h2>
+                    <p>Lavado Premium + Repaint.</p>
+                    <input type="button" value="Solicitar">
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c6.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Combo 2</h2>
+                    <p>Lavado Premium + Recolor.</p>
+                    <input type="button" value="Solicitar">
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover">
+                    <img src="media/c7.png" alt="">
+                    <div class="img__back"></div>
+                </div>
+                <div class="description">
+                    <h2>Combo 3</h2>
+                    <p>Premium + Repaint + Recolor.</p>
+                    <input type="button" value="Solicitar">
+                </div>
+            </div>
+        </div>
+        <h2 id="clientes">Clientes</h2>
+        <div class="container_multifeed">
+            <div id="multimedia">
+                <video autoplay loop controls muted>
+                    <source src="media/reelsros.mp4" type="video/mp4" alt="Video de experiencias">
+                </video>
+            </div>
+            <section class="contenedor-comentarios">
+                <div class="area-comentar">
+                    <div class="avatar">
+                        <img src="media/avatar2.jpg" alt="img">
+                    </div>
+                    <form action="#" method="post" class="inputs-comentarios">
+                        <textarea name="" class="area-comentario"></textarea>
+                        <div class="botones-comentar">
+                            <div class="boton-subir-archivo">
+                                <label class="boton-file" for="adjuntar">
+                                    <i class="far fa-image"></i>
+                                    Adjuntar archivo
+                                </label>
+                                <input type="file" name="" value="" placeholder="" id="adjuntar">
+                            </div>
+                            <button class="boton-enviar" type="sutmit">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="publicacion-realizada">
+                    <div class="usuario-publico">
+                        <div class="avatar">
+                            <img src="media/avatar3.jpeg" alt="img">
+                        </div>
+                        <div class="publicante">
+                            <h4>Carolina de la valle</h4>
+                            <ul>
+                                <span>Hace 25 min</span>
+                            </ul>
+                        </div>
+                        <div class="menu-comentario">
+                            <i class="fas fa-pen"></i>
+                            <ul class="menu">
+                                <li><a href="#">Editar</a></li>
+                                <li><a href="#">Eliminar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p> Imaginen que dejé unas zapatillas en este estado para una renovación y me las entregaron como
+                        nuevas *-* <br>
+                        No dudo que puedan cumplir las expectativas de cualquier cliente, desde ahora son los únicos en
+                        los que confío parar cuidar mis zapatillas.</p> <!--Comentario-->
+                    <div class="archivo-publicado">
+                        <img src="media/slider4.png" alt="img">
+                    </div>
+                    <div class="botones-comentario">
+                        <button type="" class="boton-puntuar">
+                            <i class="fas fa-thumbs-up"></i>
+                            45
+                        </button>
+                        <button type="" class="boton-responder">
+                            Responder
+                        </button>
+                    </div>
+                </div>
+                <div class="comentarios-usuarios">
+                    <div class="comentario-principal-usuario">
+                        <div class="avatar">
+                            <img src="media/avatar1.jpg" alt="img">
+                        </div>
+                        <div class="comentario">
+                            <div class="usuario-comentario">
+                                <div class="texto">
+                                    <a href="#" title="" class="nombre-usuario">Camila valle</a><br>
+                                    Es verdad, son los mejores realizando restauraciones, y que decir de las
+                                    limpiezas... <br>
+                                    Siempre usan los mejores productos de limpieza y mis zapatillas regresan a casa
+                                    viendose y oliendo como nuevas.
+                                    <div class="menu-comentario">
+                                        <i class="fas fa-pen"></i>
+                                        <ul class="menu">
+                                            <li><a href="">Editar</a></li>
+                                            <li><a href="">Eliminar</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="botones-comentario">
+                                    <button type="" class="boton-puntuar">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        5
+                                    </button>
+                                    <button type="" class="boton-responder">
+                                        responder
+                                    </button>
+                                    <span class="tiempo-comentario">
+                                        hace 10 min
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="contenedor-sub-comentarios">
+                                <div class="comentario-principal-usuario">
+                                    <div class="avatar">
+                                        <img src="media/avatar4.jpg" alt="img">
+                                    </div>
+                                    <div class="comentario">
+                                        <div class="usuario-comentario">
+                                            <div class="texto">
+                                                <a href="#" title="" class="nombre-usuario">Esteban Hernandez</a><br>
+                                                También los recomiendo, toda mi familia lleva sus sneakers a servicio
+                                                con ellos <br>
+                                                No tengo dudas de que todo aquel que quiere cuidar sus sneakers debe ir
+                                                con ellos.
+                                                <div class="menu-comentario">
+                                                    <i class="fas fa-pen"></i>
+                                                    <ul class="menu">
+                                                        <li><a href="">Editar</a></li>
+                                                        <li><a href="">Eliminar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="botones-comentario">
+                                                <button type="" class="boton-puntuar">
+                                                    <i class="fas fa-thumbs-up"></i>
+                                                    12
+                                                </button>
+                                                <button type="" class="boton-responder">
+                                                    responder
+                                                </button>
+                                                <span class="tiempo-comentario">
+                                                    hace 3 min
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comentar-publicacion">
+                        <div class="avatar">
+                            <img src="media/avatar2.jpg" alt="img">
+                        </div>
+                        <form action="#" method="post" class="comentar-comentario">
+                            <input type="text" name="" value="" placeholder="">
+                            <button type="" class="boton-enviar">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <img src="media/logorosnewpng.png" alt="Logo de Republic of Shoes">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>*Dirección: Jirón Ignacio Merino N° 3791 - Los Olivos</p>
+                <p>*Teléfono: 983362672 </p>
+                <p>*Email: ofshoesrepublic@gmail.com</p>
+                <p>*Atención a Reclamos</p>
+                <p>*Libro de Reclamaciones</p>
+                <img class="libro-de-rec" src="media/librodreclamaciones.png">
+
+            </div>
+            <div class="box">
+                <h2>Siguenos</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100085253710672&mibextid=ZbWKwL"
+                        class="fa-brands fa-facebook"></a>
+                    <a href="https://instagram.com/rep.of.shoes?igshid=Yzg5MTU1MDY=" class="fa fa-instagram"></a>
+                    <a href="https://www.tiktok.com/@republic.of.shoes?_t=8Yb3nizgdVe&_r=1"
+                        class="fa-brands fa-tiktok"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2023 <b>Grupo</b> - Héctor Vega / Giancarlo Vásquez</small>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>

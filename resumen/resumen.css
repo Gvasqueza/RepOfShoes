@@ -1,0 +1,40 @@
+:root {
+	--fondo:#1163d78b;
+	--botonhover:#1008a8;
+	--botoncard:#d3d3d8;
+	--botonenvio:#374D71;
+	--hoverenvio:#4C6FA7;
+	--footer:#172c35;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--fondo);
+}
+
+.resumen-compra {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.seccion {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
